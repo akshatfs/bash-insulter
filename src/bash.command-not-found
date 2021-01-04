@@ -32,12 +32,10 @@ print_message () {
         "Perhaps you should leave the command line alone..."
         "Please step away from the keyboard!"
         "error code: 1D10T"
-        "ACHTUNG! ALLES TURISTEN UND NONTEKNISCHEN LOOKENPEEPERS! DAS KOMPUTERMASCHINE IST NICHT FÜR DER GEFINGERPOKEN UND MITTENGRABEN! ODERWISE IST EASY TO SCHNAPPEN DER SPRINGENWERK, BLOWENFUSEN UND POPPENCORKEN MIT SPITZENSPARKEN. IST NICHT FÜR GEWERKEN BEI DUMMKOPFEN. DER RUBBERNECKEN SIGHTSEEREN KEEPEN DAS COTTONPICKEN HÄNDER IN DAS POCKETS MUSS. ZO RELAXEN UND WATSCHEN DER BLINKENLICHTEN."
         "Pro tip: type a valid command!"
         "Go outside."
         "This is not a search engine."
-        "(╯°□°）╯︵ ┻━┻"
-        "¯\\_(ツ)_/¯"
+        "¯\_(ツ)_/¯"
         "So, I'm just going to go ahead and run rm -rf / for you."
         "Why are you so stupid?!"
         "Perhaps computers is not for you..."
@@ -77,7 +75,7 @@ print_message () {
 
     # Print a randomly selected message, but only about half the time to annoy the user a
     # little bit less.
-    if [[ $((${RANDOM} % 2)) -lt 1 ]]; then
+    if [[ $((${RANDOM} % 2)) -lt 2 ]]; then
         message=${messages[${RANDOM} % ${#messages[@]}]}
         printf "\\n  %s\\n\\n" "$(tput bold)$(tput setaf 1)${message}$(tput sgr0)" >&2
     fi
