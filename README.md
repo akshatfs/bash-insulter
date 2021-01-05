@@ -1,4 +1,4 @@
-## Forked from @hkbakke
+## Forked from [@hkbakke](https://github.com/hkbakke/bash-insulter)
 
 # bash-insulter
 Randomly insults the user when typing wrong command.
