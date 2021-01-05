@@ -1,3 +1,5 @@
+## Forked from @hkbakke
+
 # bash-insulter
 Randomly insults the user when typing wrong command.
 
